@@ -28,8 +28,8 @@ public class Converter {
         float dollar = Converter.dollarToRuble(1);
         float dollar1 = Converter.rubleToDollar(60);
         System.out.println("1 euro are " + euro + " ruble.");
-        System.out.println("1 dollar are " + dollar + " ruble");
-        System.out.println("70 ruble " + euro1 + " euro");
-        System.out.println("60 rubles " + dollar1 + " dollar");
+        System.out.println("1 dollar are " + dollar + " ruble.");
+        System.out.println("70 ruble " + euro1 + " euro.");
+        System.out.println("60 rubles " + dollar1 + " dollar.");
     }
 }
