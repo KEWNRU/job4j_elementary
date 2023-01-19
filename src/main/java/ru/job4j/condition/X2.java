@@ -24,6 +24,7 @@ public class X2 {
         x = 1;
         rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
+
         a = 1;
         b = 1;
         c = 1;
