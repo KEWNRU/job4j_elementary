@@ -8,10 +8,10 @@ public class DummyBot {
             rsl = "Hi, SmartAss.";
 
         } else if ("Bye.".equals(question)) {
-                rsl = "See you later.";
+            rsl = "See you later.";
         }
-            return rsl;
-        }
+        return rsl;
+    }
 
     public static void main(String[] args) {
         String rsl = DummyBot.answer("Hi, Bot.");
