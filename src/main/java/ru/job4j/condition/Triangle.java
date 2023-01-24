@@ -12,5 +12,6 @@ public class Triangle {
         System.out.println(result);
         result = exist(4, 3, 1);
         System.out.println(result);
+
     }
 }

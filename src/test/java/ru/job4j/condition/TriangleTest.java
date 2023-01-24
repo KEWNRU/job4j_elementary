@@ -20,5 +20,6 @@ public class TriangleTest {
         double bc = 3.0;
         boolean result = Triangle.exist(ab, ac, bc);
         assertThat(result).isFalse();
+
     }
 }
