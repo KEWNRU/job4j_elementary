@@ -4,11 +4,11 @@ public class ArrayLoop {
 
     public static void main(String[] args) {
         int[] numbers = new int[5];
-        for (int index = 0; index < numbers.length; index++) {
-            numbers[index] = index * 2 + 3;
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i * 2 + 3;
         }
-        for (int index : numbers) {
-            System.out.println(index);
+        for (int i : numbers) {
+            System.out.println(i);
         }
     }
 }
