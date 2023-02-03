@@ -17,10 +17,10 @@ public class SwitchArrayTest {
     @Test
     public void whenSwap0to5() {
         int[] input = {1, 2, 3, 4, 5, 6};
-        int source = 0;
+        int source = 3;
         int dest = input.length - 1;
         int[] result = SwitchArray.swap(input, source, dest);
-        int[] expected = {6, 2, 3, 4, 5, 1};
+        int[] expected = {1, 2, 3, 6, 5, 4};
         assertThat(result).containsExactly(expected);
     }
 }
